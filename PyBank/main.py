@@ -24,7 +24,7 @@ with open(csvpath, newline='') as csvfile:
     sum = 0
 
     for row in csvreader:
-        print(row)
+        #print(row)
         NumberMonths = NumberMonths + 1
         ProfitLoss.append(int(row[1]))
         sum = sum + int(row[1])
