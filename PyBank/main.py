@@ -54,12 +54,7 @@ with open(csvpath, newline='') as csvfile:
     print("The number of months is :", NumberMonths)
     print("The total profit is :", sum)
     print("The average profit is :", avg)
-
     print("The greatest profit is",largest_increase, largest_increase_month)
     print("The lowest profit is",largest_decrease, largest_decrease_month)
 
-# print("The number of months is :", NumberMonths)
-# print("The total profit is :", sum)
-# print("The average profit is :", avg)
-# print("The lowest profit is :", min)
-# print("The greatest profit is :", max)
+
