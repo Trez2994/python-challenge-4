@@ -44,6 +44,9 @@ with open(csvpath, newline='') as csvfile:
     percent_li = round((votes_li / total_votes) * 100)
     percent_otooley = round((votes_otooley / total_votes) * 100)
 
+    if votes_khan > votes_correy:
+        winner = "Khan"
+
         
     
     
@@ -52,5 +55,6 @@ with open(csvpath, newline='') as csvfile:
     print("The total number of votes for Correy is",votes_correy,"which is",percent_correy,"% of votes")
     print("The total number of votes for Li is",votes_li,"which is",percent_li,"% of votes")
     print("The total number of votes for O'Tooley is",votes_otooley,"which is",percent_otooley,"% of votes")
+    print("The winner is",winner)
 
     #print(candiates_list)
